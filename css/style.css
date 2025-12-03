@@ -8,7 +8,6 @@
     --primary-color: #0D2A4C;
     --secondary-color: #0277FF;
     --third-color: #0D2A4C;
-    --background-color: #E4E4E4;
     --light-gray: #f1f1f1;
     --text-color: #000000;
     --border-radius: 5px;
@@ -86,19 +85,30 @@ footer svg{
     justify-content: center;
 }
 .icon-footer-bg {
-    /* Define o tamanho do círculo de fundo */
     width: 3rem; 
     height: 2.3rem;
-    
-    /* Cor de fundo (coloquei um azul claro baseado na sua imagem) */
     background-color: #e6f0fa; 
-    
-    /* Transforma em círculo */
-    border-radius: 30%;
-    
-    /* Centraliza o SVG dentro do círculo usando Flexbox */
-    display: flex;
+        border-radius: 30%;
+        display: flex;
     justify-content: center;
     align-items: center;
 
+}
+.fa-ellipsis-vertical:hover{
+    color: rgb(161, 161, 161);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.ver-mais {
+    color: var(--text-color);
+    font-size: 0.9rem;
+}
+.ver-mais:hover {
+    color: rgb(161, 161, 161);
+    text-decoration: underline;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.icon-footer:hover {
+    transform: scale(1.1);
 }
